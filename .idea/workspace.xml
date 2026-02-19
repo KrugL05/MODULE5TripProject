@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="371QCOX0H9vEsQMLcs9JyNjQXMY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/all/coding/itlogia/MODULE5TripProject/styles/libStyles&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\styles\libStyles" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\scripts\libScripts" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kroug\OneDrive\Рабочий стол\ваня\coding\itlogia\MODULE5TripProject\images" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\scripts\libScripts" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\styles\libStyles" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\styles" />
+      <recent name="C:\all\coding\itlogia\MODULE5TripProject\scripts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="" />
+      <created>1766067968937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766067968937</updated>
+      <workItem from="1766067970252" duration="6266000" />
+      <workItem from="1766216839961" duration="26715000" />
+      <workItem from="1766255390972" duration="730000" />
+      <workItem from="1766498677269" duration="8737000" />
+      <workItem from="1766779628823" duration="26737000" />
+      <workItem from="1767180213905" duration="23718000" />
+      <workItem from="1767287968985" duration="5057000" />
+      <workItem from="1767308224603" duration="563000" />
+      <workItem from="1767309484519" duration="2165000" />
+      <workItem from="1767568935742" duration="2215000" />
+      <workItem from="1767628644400" duration="1794000" />
+      <workItem from="1768079873193" duration="1214000" />
+      <workItem from="1768638802216" duration="2106000" />
+      <workItem from="1768649141836" duration="860000" />
+      <workItem from="1768915905866" duration="70000" />
+      <workItem from="1769684231413" duration="4646000" />
+      <workItem from="1769853778365" duration="50000" />
+      <workItem from="1769872702685" duration="1682000" />
+      <workItem from="1770037972532" duration="4361000" />
+      <workItem from="1770278489008" duration="105000" />
+      <workItem from="1771487138014" duration="12640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
