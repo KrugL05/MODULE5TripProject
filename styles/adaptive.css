@@ -1,42 +1,42 @@
 @media screen and  (max-width: 1695px) {
-    .header__container,.preview__container {
+    .header__container, .preview__container {
         padding-left: 15px;
     }
 
-    .footer__container{
+    .footer__container {
         padding: 0 15px;
     }
 
-    .fire-ice{
+    .fire-ice {
         padding: 125px 15px 180px 15px;
     }
 
-    .pros__line__block.first{
+    .pros__line__block.first {
         flex-direction: column-reverse;
         top: 0;
         left: 15%;
     }
 
-    .pros__line__block.second{
+    .pros__line__block.second {
         flex-direction: column;
         bottom: -5%;
     }
 
-    .pros__line__block.third{
+    .pros__line__block.third {
         flex-direction: column-reverse;
         top: 0;
     }
 
-    .pros__line__block.fourth{
+    .pros__line__block.fourth {
         flex-direction: column;
         bottom: -6%;
     }
 
-    .first .pros__line__text, .third .pros__line__text{
+    .first .pros__line__text, .third .pros__line__text {
         margin-bottom: 15px;
     }
 
-    .second .pros__line__text, .fourth .pros__line__text{
+    .second .pros__line__text, .fourth .pros__line__text {
         margin-bottom: 0;
         margin-top: 10px;
     }
@@ -46,38 +46,38 @@
         font-size: 12px;
     }
 
-    .pros__line__title{
+    .pros__line__title {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 1249px) {
-    .preview{
+    .preview {
         padding-bottom: 100px;
     }
 
-    .preview__roadmap img{
+    .preview__roadmap img {
         display: none;
     }
 
-    .preview__container{
+    .preview__container {
         background-image: url("../images/preview_img.png");
         min-height: 620px;
         max-width: 1000px;
         position: relative;
     }
 
-    .pros__line__block.second{
+    .pros__line__block.second {
         bottom: -5%;
         left: 30%;
     }
 
-    .pros__line__block.third{
+    .pros__line__block.third {
         top: -5%;
         left: 49%;
     }
 
-    .pros__line__block.fourth{
+    .pros__line__block.fourth {
         bottom: -10%;
     }
 
@@ -85,20 +85,20 @@
         padding: 0 15px;
     }
 
-    .places__info__title{
+    .places__info__title {
         font-size: 16px;
     }
 
-    .places__info p{
+    .places__info p {
         font-size: 14px;
     }
 
-    .places__white-block{
+    .places__white-block {
         width: 218px;
         height: 211px;
     }
 
-    .places__white-block img{
+    .places__white-block img {
         width: 237px;
     }
 
@@ -106,8 +106,302 @@
         max-width: 350px;
     }
 
-    .tour-slide{
+    .tour-slide {
         gap: 30px;
+    }
+}
+
+@media screen and  (max-width: 1096px) {
+    .fire-ice {
+        padding: 81px 15px 99px 15px;
+    }
+
+    .fire-ice__white-block {
+        max-width: 300px;
+        max-height: 350px;
+        order: 0;
+    }
+
+    .fire-ice__content {
+        display: contents;
+
+    }
+
+    .fire-ice__img {
+        max-width: 350px;
+    }
+
+    .fire-ice__title {
+        order: -1;
+        margin-bottom: 25px;
+    }
+
+    .fire-ice__description {
+        font-size: 14px;
+        order: 1;
+        margin-top: 10px;
+    }
+
+    .fire-ice__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pros__line__block.first {
+        top: -29px;
+        left: 13%;
+    }
+
+    .pros__line__block.second {
+        bottom: -12%;
+    }
+
+    .pros__line__block.third {
+        top: -8%;
+        left: 47%;
+    }
+
+    .pros__line__block.fourth {
+        bottom: -15%;
+    }
+
+    .feedback-slide__content {
+        max-width: 301px;
+    }
+
+    .feedback-slide {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .feedback-slide__text {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .feedback-slide__image img {
+        max-width: 350px;
+    }
+
+    .feedback-slide {
+        gap: 20px;
+    }
+
+    .tour-slide {
+        gap: 0;
+    }
+
+    .tour-slide__controls {
+        max-width: 620px;
+    }
+}
+
+@media screen and  (max-width: 986px) {
+    .pros__title {
+        margin-bottom: 40px;
+    }
+
+    .pros__line__description {
+        font-size: 11px;
+    }
+
+    .pros__line__title {
+        font-size: 13px;
+    }
+
+    .pros__line__block.third {
+        top: -14%;
+    }
+
+    .gallery-swiper {
+        padding-right: 50px;
+    }
+
+    .places__container {
+        flex-direction: column;
+    }
+
+    .places__map {
+        margin-top: 39px;
+    }
+
+    .places__info__title {
+        font-size: 20px;
+    }
+
+    .places__info__description {
+        max-width: 290px;
+        height: 78px;
+        font-size: 14px;
+    }
+}
+
+@media screen and  (max-width: 769px) {
+    .pros__line {
+        background-image: url("../images/punkt480.png");
+    }
+
+    .pros__line__text {
+        max-width: 150px;
+    }
+
+    .pros__line__description {
+        font-size: 9px;
+    }
+
+    .pros__line__block.first {
+        top: -13%;
+        left: 3%;
+    }
+
+    .pros__line__block.second {
+        bottom: 8%;
+        left: 20%;
+    }
+
+    .pros__line__block.third {
+        top: -14%;
+        left: 41%;
+    }
+
+    .pros__line__block.fourth {
+        bottom: 11%;
+        left: 56%;
+    }
+
+    .places__map__img {
+        max-width: 300px;
+    }
+
+    .white-block {
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    .tour-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .tour-slide__day {
+        order: 0;
+        margin-bottom: 25px;
+    }
+
+    .tour-slide__heading {
+        order: 1;
+    }
+
+    .tour-slide__image {
+        order: 2;
+    }
+
+    .tour-slide__text {
+        order: 3;
+        margin-top: 10px;
+    }
+
+    .tour-program__download {
+        order: 4;
+    }
+
+    .tour-slide__content {
+        display: contents;
+    }
+
+    .tour-slide__image img {
+        max-width: 350px;
+
+    }
+
+    .tour-slide__controls {
+        flex-direction: row;
+        margin-left: 15px;
+    }
+
+    .feedback-slide {
+        display: flex;
+        flex-direction: column;
+        margin: 53px 51px 50px 56px;
+    }
+
+    .feedback-slide__content {
+        max-height: 300px;
+    }
+
+    .feedback-slide__text {
+        margin: 15px 0 0 0;
+    }
+
+    .feedback-swiper__nav{
+        bottom: 55px;
+        left: 65px;
+    }
+
+    .burger {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index: 1001;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    @media screen and  (max-width: 578px) {
+        .preview__actions{
+            flex-direction: column;
+            max-width: 245px;
+        }
+
+        .preview__title{
+            font-size: 40px;
+        }
+
+        .preview__mini_title{
+            font-size: 25px;
+        }
+
+        .pros__line{
+            background-image: url("../images/Пунктирная линия2.png");
+        }
+
+        .pros__line__title{
+            font-size: 10px;
+        }
+
+
+        .pros__line__description {
+            font-size: 9px;
+        }
+
+        .pros__line__block.first {
+            top: -13%;
+            left: 3%;
+        }
+
+        .pros__line__block.second {
+            bottom: 8%;
+            left: 20%;
+        }
+
+        .pros__line__block.third {
+            top: -14%;
+            left: 41%;
+        }
+
+        .pros__line__block.fourth {
+            bottom: 11%;
+            left: 56%;
+        }
+
+
     }
 
 }

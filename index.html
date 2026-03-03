@@ -24,7 +24,31 @@
             <a href="#feedback" class="header__menu__item">Отзывы</a>
             <a href="#gallery" class="header__menu__item">Фотогалерея</a>
         </nav>
+
+        <div class="burger" id="burger">
+            <svg class="burger__icon burger__icon--open" width="32px" height="22px" viewBox="0 0 512 512"
+                 xmlns="http://www.w3.org/2000/svg">
+                <rect width="352" height="32" x="80" y="96" fill="#2c2c2c"/>
+                <rect width="352" height="32" x="80" y="240" fill="#2c2c2c"/>
+                <rect width="352" height="32" x="80" y="384" fill="#2c2c2c"/>
+            </svg>
+            <svg class="burger__icon burger__icon--close" width="26px" height="26px" viewBox="0 0 512 512"
+                 xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                <line x1="80" y1="80" x2="432" y2="432" stroke="#2c2c2c" stroke-width="40" stroke-linecap="round"/>
+                <line x1="432" y1="80" x2="80" y2="432" stroke="#2c2c2c" stroke-width="40" stroke-linecap="round"/>
+            </svg>
+        </div>
     </div>
+</header>
+
+<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+<nav class="mobile-menu" id="mobileMenu">
+    <a href="#fire-ice" class="mobile-menu__item">Об Исландии</a>
+    <a href="#tour-program" class="mobile-menu__item">Программа</a>
+    <a href="#feedback" class="mobile-menu__item">Отзывы</a>
+    <a href="#gallery" class="mobile-menu__item">Фотогалерея</a>
+</nav>
+</div>
 </header>
 
 <main class="main">
@@ -32,7 +56,9 @@
         <div class="container preview__container">
             <div class="preview__content">
                 <h1 class="preview__title" id="previewTitle">Путешеc<span class="white-span">твие в Исландию</span></h1>
-                <div class="preview__mini_title" id="previewMiniTitle">Авторский тур <span class="white-span" id="whiteSpan">в страну льда</span></div>
+                <div class="preview__mini_title" id="previewMiniTitle">Авторский тур <span class="white-span"
+                                                                                           id="whiteSpan">в страну льда</span>
+                </div>
                 <div class="preview__actions">
                     <a class="preview__actions__booking" href="#order">Забронировать <img src="images/next.png"
                                                                                           alt="Забронировать">
@@ -95,7 +121,7 @@
         </div>
     </section>
 
-    <section class="fire-ice wow animate__fadeIn" id="fire-ice" >
+    <section class="fire-ice wow animate__fadeIn" id="fire-ice">
         <div class="container fire-ice__container">
             <div class="fire-ice__image">
                 <div class="white-block fire-ice__white-block">
@@ -117,24 +143,10 @@
             <h2 class="pros__title">Почему вы захотите поехать в тур именно с нами</h2>
             <div class="pros__line">
                 <div class="pros__line__block first">
-                    <div class="pros__line__circle">
-                        <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="75px" height="75px">
-                            <!-- Белый круг -->
-                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                                  d="M37.500,-0.001 C58.211,-0.001 74.1000,16.789 74.1000,37.500 C74.1000,58.210 58.211,74.999 37.500,74.999 C16.789,74.999 -0.000,58.210 -0.000,37.500 C-0.000,16.789 16.789,-0.001 37.500,-0.001 Z"/>
-                            <!-- Цифра "1" по центру -->
-                            <text x="37.5" y="37.5"
-                                  text-anchor="middle"
-                                  dominant-baseline="middle"
-                                  font-size="30"
-                                  fill="#2c2c2c"
-                                  font-family="Montserrat, sans-serif">1
-                            </text>
-                        </svg>
-                    </div>
+                    <picture class="pros__line__circle">
+                        <source media="(min-width: 769px)" srcset="/images/круг1д.png" class="pros__line__circle__img">
+                        <img src="/images/круг1м.png" alt="Фото" class="pros__line__circle__img">
+                    </picture>
                     <div class="pros__line__text">
                         <div class="pros__line__title">Крутая команда</div>
                         <p class="pros__line__description">В каждый тур едет сопровождающий и фотограф, а в каждом
@@ -144,24 +156,10 @@
                     </div>
                 </div>
                 <div class="pros__line__block second">
-                    <div class="pros__line__circle">
-                        <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="75px" height="75px">
-                            <!-- Белый круг -->
-                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                                  d="M37.500,-0.001 C58.211,-0.001 74.1000,16.789 74.1000,37.500 C74.1000,58.210 58.211,74.999 37.500,74.999 C16.789,74.999 -0.000,58.210 -0.000,37.500 C-0.000,16.789 16.789,-0.001 37.500,-0.001 Z"/>
-                            <!-- Цифра "1" по центру -->
-                            <text x="37.5" y="37.5"
-                                  text-anchor="middle"
-                                  dominant-baseline="middle"
-                                  font-size="30"
-                                  fill="#2c2c2c"
-                                  font-family="Montserrat, sans-serif">2
-                            </text>
-                        </svg>
-                    </div>
+                    <picture class="pros__line__circle">
+                        <source media="(min-width: 769px)" srcset="/images/круг2д.png" class="pros__line__circle__img">
+                        <img src="/images/круг2м.png" alt="Фото" class="pros__line__circle__img">
+                    </picture>
                     <div class="pros__line__text">
                         <div class="pros__line__title">Свобода действий</div>
                         <p class="pros__line__description">Выбирай только те активности, которые нравятся и
@@ -170,24 +168,10 @@
                     </div>
                 </div>
                 <div class="pros__line__block third">
-                    <div class="pros__line__circle">
-                        <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="75px" height="75px">
-                            <!-- Белый круг -->
-                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                                  d="M37.500,-0.001 C58.211,-0.001 74.1000,16.789 74.1000,37.500 C74.1000,58.210 58.211,74.999 37.500,74.999 C16.789,74.999 -0.000,58.210 -0.000,37.500 C-0.000,16.789 16.789,-0.001 37.500,-0.001 Z"/>
-                            <!-- Цифра "1" по центру -->
-                            <text x="37.5" y="37.5"
-                                  text-anchor="middle"
-                                  dominant-baseline="middle"
-                                  font-size="30"
-                                  fill="#2c2c2c"
-                                  font-family="Montserrat, sans-serif">3
-                            </text>
-                        </svg>
-                    </div>
+                    <picture class="pros__line__circle">
+                        <source media="(min-width: 769px)" srcset="/images/круг3д.png" class="pros__line__circle__img">
+                        <img src="/images/круг3м.png" alt="Фото" class="pros__line__circle__img">
+                    </picture>
                     <div class="pros__line__text">
                         <div class="pros__line__title">Транспорт</div>
                         <p class="pros__line__description">Мы арендуем 2-3 комфортных внедорожника на которых можно
@@ -195,25 +179,10 @@
                     </div>
                 </div>
                 <div class="pros__line__block fourth">
-                    <div class="pros__line__circle">
-                        <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="75px" height="75px">
-                            <!-- Белый круг -->
-                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                                  d="M37.500,-0.001 C58.211,-0.001 74.1000,16.789 74.1000,37.500 C74.1000,58.210 58.211,74.999 37.500,74.999 C16.789,74.999 -0.000,58.210 -0.000,37.500 C-0.000,16.789 16.789,-0.001 37.500,-0.001 Z"/>
-                            <!-- Цифра "1" по центру -->
-                            <text x="37.5" y="37.5"
-                                  text-anchor="middle"
-                                  dominant-baseline="middle"
-                                  font-size="30"
-                                  fill="#2c2c2c"
-                                  font-family="Montserrat, sans-serif">4
-                            </text>
-                        </svg>
-                    </div>
-
+                    <picture class="pros__line__circle">
+                        <source media="(min-width: 769px)" srcset="/images/круг4д.png" class="pros__line__circle__img">
+                        <img src="/images/круг4м.png" alt="Фото" class="pros__line__circle__img">
+                    </picture>
                     <div class="pros__line__text">
                         <div class="pros__line__title">Проживание</div>
                         <p class="pros__line__description">Вы будете располагаться в комфортном коттеджном комплексе
@@ -280,7 +249,14 @@
         <h2 class="tour-program__title">Программа тура</h2>
         <div class="swiper tour-swiper">
             <div class="swiper-wrapper tour-program-swiper-wrapper" id="tourSlides"></div>
+            <div class="tour-slide__controls">
+                <div class="tour-swiper__nav">
+                    <div class="swiper-button-prev tour-swiper-prev"></div>
+                    <div class="swiper-button-next tour-swiper-next"></div>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <section class="feedback wow animate__fadeIn" id="feedback">
@@ -300,40 +276,30 @@
         <div class="gallery-swiper swiper">
             <div class="swiper-wrapper gallery-swiper-wrapper" id="gallerySlides">
                 <div class="swiper-slide gallery-slide">
-                    <a href="images/gallery1.png" class="gallery1 G1"><img src="images/gallery1.png" alt="Картинка"></a>
-                    <a href="images/gallery2.png" class="gallery2 G2"><img src="images/gallery2.png" alt="Картинка"></a>
-                    <a href="images/gallery3.png" class="gallery4 G4"><img src="images/gallery4.png" alt="Картинка"></a>
-                    <a href="images/gallery4.png" class="gallery3 G3"><img src="images/gallery3.png" alt="Картинка"></a>
-                    <a href="images/gallery5.png" class="gallery5 G5"><img src="images/gallery5.png" alt="Картинка"></a>
+                    <a href="images/gallery1.png" class="gallery__image"><img src="images/gallery1.png" alt="Картинка"></a>
                 </div>
                 <div class="swiper-slide gallery-slide">
-                    <a href="images/gallery1.png" class="gallery1 G1"><img src="images/gallery1.png" alt="Картинка"></a>
-                    <a href="images/gallery2.png" class="gallery2 G2"><img src="images/gallery2.png" alt="Картинка"></a>
-                    <a href="images/gallery3.png" class="gallery4 G4"><img src="images/gallery4.png" alt="Картинка"></a>
-                    <a href="images/gallery4.png" class="gallery3 G3"><img src="images/gallery3.png" alt="Картинка"></a>
-                    <a href="images/gallery5.png" class="gallery5 G5"><img src="images/gallery5.png" alt="Картинка"></a>
+                    <a href="images/gallery2.png" class="gallery__image"><img src="images/gallery2.png" alt="Картинка"></a>
                 </div>
                 <div class="swiper-slide gallery-slide">
-                    <a href="images/gallery1.png" class="gallery1 G1"><img src="images/gallery1.png" alt="Картинка"></a>
-                    <a href="images/gallery2.png" class="gallery2 G2"><img src="images/gallery2.png" alt="Картинка"></a>
-                    <a href="images/gallery3.png" class="gallery4 G4"><img src="images/gallery4.png" alt="Картинка"></a>
-                    <a href="images/gallery4.png" class="gallery3 G3"><img src="images/gallery3.png" alt="Картинка"></a>
-                    <a href="images/gallery5.png" class="gallery5 G5"><img src="images/gallery5.png" alt="Картинка"></a>
+                    <a href="images/gallery3.png" class="gallery__image"><img src="images/gallery3.png" alt="Картинка"></a>
                 </div>
                 <div class="swiper-slide gallery-slide">
-                    <a href="images/gallery1.png" class="gallery1 G1"><img src="images/gallery1.png" alt="Картинка"></a>
-                    <a href="images/gallery2.png" class="gallery2 G2"><img src="images/gallery2.png" alt="Картинка"></a>
-                    <a href="images/gallery3.png" class="gallery4 G4"><img src="images/gallery4.png" alt="Картинка"></a>
-                    <a href="images/gallery4.png" class="gallery3 G3"><img src="images/gallery3.png" alt="Картинка"></a>
-                    <a href="images/gallery5.png" class="gallery5 G5"><img src="images/gallery5.png" alt="Картинка"></a>
+                    <a href="images/gallery1.png" class="gallery__image"><img src="images/gallery1.png" alt="Картинка"></a>
+                </div>
+                <div class="swiper-slide gallery-slide">
+                    <a href="images/gallery2.png" class="gallery__image"><img src="images/gallery2.png" alt="Картинка"></a>
+                </div>
+                <div class="swiper-slide gallery-slide">
+                    <a href="images/gallery3.png" class="gallery__image"><img src="images/gallery3.png" alt="Картинка"></a>
                 </div>
             </div>
+        </div>
 
-            <div class="gallery-swiper__nav">
-                <div class="swiper-button-prev gallery-prev"></div>
-                <div class="swiper-pagination gallery-swiper-pagination"></div>
-                <div class="swiper-button-next gallery-next"></div>
-            </div>
+        <div class="gallery-swiper__nav">
+            <div class="swiper-button-prev gallery-prev"></div>
+            <div class="swiper-pagination gallery-swiper-pagination"></div>
+            <div class="swiper-button-next gallery-next"></div>
         </div>
     </section>
 
@@ -363,10 +329,13 @@
                 </div>
                 <div class="order__name">
                     <input type="text" class="order__name__input input" placeholder="Ваше имя" id="inputName">
+                    <label for="inputName"></label>
                     <div class="validation nameValidation" id="nameValidation">Введите ваше имя</div>
                 </div>
                 <div class="order__phone">
-                    <input type="tel" class="order__phone__input input" placeholder="Ваш телефон" id="inputPhone">
+                    <input type="text" class="order__phone__input input mask-phone form-control"
+                           placeholder="Ваш телефон" id="inputPhone">
+                    <label for="inputPhone"></label>
                     <div class="validation phoneValidation" id="phoneValidation">Введите ваш номер телефона</div>
                 </div>
                 <button class="btn order__btn" type="submit">Отправить заявку</button>
@@ -399,11 +368,12 @@
                 <img src="images/TG.png" alt="Телеграмм">
             </a>
         </div>
-        <a href="#" class="footer__phone">+ 375 29 47-09-788</a>
+        <a href="tel:+ 375 29 47-09-788" class="footer__phone">+ 375 29 47-09-788</a>
     </div>
 </footer>
 
 <script src="scripts/libScripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/libScripts/jquery.maskedinput.min.js"></script>
 <script src="scripts/libScripts/jquery.magnific-popup.min.js"></script>
 <script src="scripts/libScripts/wow.min.js"></script>
 <script src="scripts/libScripts/swiper-bundle.min.js"></script>
