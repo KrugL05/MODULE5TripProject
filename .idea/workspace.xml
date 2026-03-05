@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="check">
-      <change afterPath="$PROJECT_DIR$/images/punkt480.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг1д.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг1м.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг2д.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг2м.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг3д.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг3м.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг4д.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/круг4м.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/libScripts/jquery.maskedinput.min.js" afterDir="false" />
+    <list default="true" id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="alredy done">
+      <change afterPath="$PROJECT_DIR$/images/previewMobile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/gallery2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
@@ -137,7 +124,8 @@
       <workItem from="1771487138014" duration="13572000" />
       <workItem from="1771508783491" duration="27369000" />
       <workItem from="1772118573790" duration="2000" />
-      <workItem from="1772525097520" duration="8270000" />
+      <workItem from="1772525097520" duration="10249000" />
+      <workItem from="1772703497902" duration="15231000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <option name="closed" value="true" />
@@ -155,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771576552746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="alredy done">
+      <option name="closed" value="true" />
+      <created>1772533740176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772533740176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="alredy done">
+      <option name="closed" value="true" />
+      <created>1772533760755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772533760755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="alredy done" />
+    <option name="LAST_COMMIT_MESSAGE" value="alredy done" />
   </component>
 </project>

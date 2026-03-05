@@ -1985,4 +1985,74 @@ body {
     color: #888;
 }
 
+.previewMobile{
+    display:none;
+}
+
+.previewMobile__content{
+    background-image: url("/images/previewMobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 300px 0;
+}
+
+.previewMobile__title{
+    font-size: 30px;
+    font-family: "Montserrat-semibold", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 415px;
+}
+
+.previewMobile__actions__watch{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+.previewMobile__roadmap{
+    padding: 70px 0 80px 0;
+}
+
+.previewMobile__roadmapTitle{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    max-width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.previewMobile__roadmap__map{
+    position: relative;
+    padding: 0 15px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.previewMobile__roadmap__date{
+    position: absolute;
+    top: 111px;
+}
+
+.previewMobile__roadmap__price{
+    position: absolute;
+    top: -30px;
+    left: 90px;
+}
+
+.previewMobile__roadmap__people{
+    position: absolute;
+    top: -70px;
+    right: -10px;
+    max-width: 70px;
+}
+
+.previewMobile__actions__booking{
+    margin-top: 90px;
+    text-align: center;
+}
+
 

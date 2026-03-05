@@ -48,8 +48,7 @@
     <a href="#feedback" class="mobile-menu__item">Отзывы</a>
     <a href="#gallery" class="mobile-menu__item">Фотогалерея</a>
 </nav>
-</div>
-</header>
+
 
 <main class="main">
     <section class="preview wow animate__fadeIn" id="preview">
@@ -63,27 +62,29 @@
                     <a class="preview__actions__booking" href="#order">Забронировать <img src="images/next.png"
                                                                                           alt="Забронировать">
                     </a>
-                    <a href="#video" class="preview__actions__watch" id="watch">
-                        <svg class="preview__actions__watch__icon"
-                             xmlns="http://www.w3.org/2000/svg"
-                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                             width="62.5px" height="62.5px">
-                            <!-- Круг -->
-                            <path fill-rule="evenodd"
-                                  stroke="rgb(255, 255, 255)"
-                                  stroke-width="1px"
-                                  stroke-linecap="butt"
-                                  stroke-linejoin="miter"
-                                  fill="none"
-                                  d="M30.1000,1.499 C47.292,1.499 60.500,14.707 60.500,30.999 C60.500,47.292 47.292,60.499 30.1000,60.499 C14.708,60.499 1.500,47.292 1.500,30.999 C1.500,14.707 14.708,1.499 30.1000,1.499 Z"/>
+                    <div class="preview__actions__watch" id="watch">
+                        <a href="#video">
+                            <svg class="preview__actions__watch__icon"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="62.5px" height="62.5px">
+                                <!-- Круг -->
+                                <path fill-rule="evenodd"
+                                      stroke="rgb(255, 255, 255)"
+                                      stroke-width="1px"
+                                      stroke-linecap="butt"
+                                      stroke-linejoin="miter"
+                                      fill="none"
+                                      d="M30.1000,1.499 C47.292,1.499 60.500,14.707 60.500,30.999 C60.500,47.292 47.292,60.499 30.1000,60.499 C14.708,60.499 1.500,47.292 1.500,30.999 C1.500,14.707 14.708,1.499 30.1000,1.499 Z"/>
 
-                            <!-- Центрированное изображение 11×13 -->
-                            <image xlink:href="images/play-button.png"
-                                   x="25.75" y="24.75"
-                                   width="11" height="13"/>
-                        </svg>
+                                <!-- Центрированное изображение 11×13 -->
+                                <image xlink:href="images/play-button.png"
+                                       x="25.75" y="24.75"
+                                       width="11" height="13"/>
+                            </svg>
+                        </a>
                         <a class="preview__actions__link" href="#video">Смотреть видео</a>
-                    </a>
+                    </div>
                 </div>
             </div>
 
@@ -115,6 +116,74 @@
                     <div class="preview__roadmap__people">
                         <div class="preview__roadmap__text">Осталось мест</div>
                         <div class="preview__roadmap__text">7 мест</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="previewMobile wow animate__fadeIn" id="previewMobile">
+                <div class="previewMobile__content">
+                    <h1 class="previewMobile__title white-span zIndex" id="previewMobileTitle">Путешеcтвие в
+                        Исландию</h1>
+                    <div class="previewMobile__actions__watch" id="watchMobile">
+                        <a href="#video">
+                            <svg class="preview__actions__watch__icon"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 width="62.5px" height="62.5px">
+                                <!-- Круг -->
+                                <path fill-rule="evenodd"
+                                      stroke="rgb(255, 255, 255)"
+                                      stroke-width="1px"
+                                      stroke-linecap="butt"
+                                      stroke-linejoin="miter"
+                                      fill="none"
+                                      d="M30.1000,1.499 C47.292,1.499 60.500,14.707 60.500,30.999 C60.500,47.292 47.292,60.499 30.1000,60.499 C14.708,60.499 1.500,47.292 1.500,30.999 C1.500,14.707 14.708,1.499 30.1000,1.499 Z"/>
+
+                                <!-- Центрированное изображение 11×13 -->
+                                <image xlink:href="images/play-button.png"
+                                       x="25.75" y="24.75"
+                                       width="11" height="13"/>
+                            </svg>
+                        </a>
+                        <a class="preview__actions__link" href="#video">Смотреть видео</a>
+                    </div>
+                </div>
+
+                <div class="previewMobile__roadmap">
+                    <h4 class="previewMobile__roadmapTitle">Авторский тур в страну льда</h4>
+                    <div class="previewMobile__roadmap__map">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="302.5px" height="117.5px">
+                            <path fill-rule="evenodd" stroke="rgb(44, 44, 44)" stroke-width="1px"
+                                  stroke-dasharray="7, 7"
+                                  stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                  d="M6.000,105.999 C6.000,105.999 32.989,37.246 70.1000,34.999 C70.1000,34.999 132.489,8.746 151.1000,28.999 C151.1000,28.999 164.1000,36.746 171.000,57.999 C171.000,57.999 174.989,75.245 189.1000,81.999 C189.1000,81.999 259.989,125.746 241.1000,38.999 C241.1000,38.999 233.989,15.746 271.1000,27.999 C271.1000,27.999 294.489,30.746 297.1000,4.999 "/>
+                            <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                  d="M3.500,109.999 C5.433,109.999 6.1000,111.566 6.1000,113.499 C6.1000,115.432 5.433,116.998 3.500,116.998 C1.567,116.998 -0.000,115.432 -0.000,113.499 C-0.000,111.566 1.567,109.999 3.500,109.999 Z"/>
+                            <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                  d="M85.500,25.999 C87.433,25.999 88.1000,27.565 88.1000,29.499 C88.1000,31.432 87.433,32.999 85.500,32.999 C83.567,32.999 81.1000,31.432 81.1000,29.499 C81.1000,27.565 83.567,25.999 85.500,25.999 Z"/>
+                            <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                  d="M298.500,-0.001 C300.433,-0.001 301.1000,1.566 301.1000,3.499 C301.1000,5.432 300.433,6.999 298.500,6.999 C296.567,6.999 294.1000,5.432 294.1000,3.499 C294.1000,1.566 296.567,-0.001 298.500,-0.001 Z"/>
+                        </svg>
+                        <div class="previewMobile__roadmap__date">
+                            <div class="preview__roadmap__text">Дата</div>
+                            <div class="preview__roadmap__text">17-24 ноября 2020</div>
+                        </div>
+                        <div class="previewMobile__roadmap__price">
+                            <div class="preview__roadmap__text">Стоимость</div>
+                            <div class="preview__roadmap__text">1700 $</div>
+                        </div>
+                        <div class="previewMobile__roadmap__people">
+                            <div class="preview__roadmap__text">Осталось мест</div>
+                            <div class="preview__roadmap__text">7 мест</div>
+                        </div>
+                    </div>
+                    <div class="previewMobile__actions__booking">
+                        <a class="preview__actions__booking" href="#order">Забронировать <img src="images/next.png"
+                                                                                              alt="Забронировать">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -215,7 +284,7 @@
 
     <section class="video wow animate__fadeIn" id="video">
         <div class="video__content" id="videoContent">
-            <svg class="video__svg"
+            <svg class="video__svg" id="videoSvg"
                  xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink"
                  width="102.5px" height="102.5px">

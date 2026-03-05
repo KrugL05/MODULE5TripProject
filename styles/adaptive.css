@@ -334,7 +334,7 @@
         margin: 15px 0 0 0;
     }
 
-    .feedback-swiper__nav{
+    .feedback-swiper__nav {
         bottom: 55px;
         left: 65px;
     }
@@ -355,24 +355,32 @@
     }
 
     @media screen and  (max-width: 578px) {
-        .preview__actions{
-            flex-direction: column;
-            max-width: 245px;
+        .preview__container{
+            background: none;
+            padding: 0;
         }
 
-        .preview__title{
-            font-size: 40px;
+        .preview__content {
+            display: none;
         }
 
-        .preview__mini_title{
-            font-size: 25px;
+        .preview__roadmap{
+            display: none;
         }
 
-        .pros__line{
+        .previewMobile{
+            display: block;
+        }
+
+        .previewMobile__title{
+            margin: 0 auto;
+        }
+
+        .pros__line {
             background-image: url("../images/Пунктирная линия2.png");
         }
 
-        .pros__line__title{
+        .pros__line__title {
             font-size: 10px;
         }
 
@@ -401,6 +409,162 @@
             left: 56%;
         }
 
+        .fire-ice__container{
+            align-items: start;
+        }
+
+        .fire-ice__title{
+            margin: 0 auto 25px auto;
+            font-size: 25px;
+        }
+
+        .fire-ice__description{
+            margin: 10px auto 0 auto;
+            max-width: 300px;
+        }
+
+        .fire-ice__white-block{
+            max-width: 230px;
+            max-height: 260px;
+        }
+
+        .fire-ice__img{
+            max-width: 280px;
+        }
+
+        .pros__line{
+            background-size: contain;
+            height: 926px;
+            max-width: 320px;
+        }
+
+        .pros__line__title{
+            font-size: 18px;
+        }
+
+        .pros__line__description{
+            font-size: 10px;
+            max-width: 250px;
+            max-height: 78px;
+        }
+
+        .first .pros__line__text,.third .pros__line__text{
+            margin: 10px;
+        }
+
+         .second .pros__line__text,.fourth .pros__line__text{
+            margin-bottom: 10px;
+        }
+
+        .pros__line__block.first{
+            flex-direction: column;
+            top: 0;
+            left: 10%;
+        }
+        .pros__line__block.second{
+            flex-direction: column-reverse;
+            left: 35px;
+            bottom: 51%;
+
+        }
+        .pros__line__block.third{
+            flex-direction: column;
+            top: 52%;
+            left: 10%;
+        }
+        .pros__line__block.fourth {
+            flex-direction: column-reverse;
+            bottom: -2%;
+            left: 10%;
+        }
+
+        .places__map__img{
+            max-width: 290px;
+        }
+
+        .video{
+            padding: 100px 0;
+        }
+
+        .tour-program__title{
+            font-size: 25px;
+        }
+
+        .tour-slide__day{
+            font-size: 20px;
+        }
+
+        .tour-slide{
+            margin-top: 40px;
+            align-items: start;
+        }
+
+        .tour-slide__image {
+            max-width: 245px;
+            max-height: 275px;
+        }
+
+        .tour-slide__image img{
+            max-width: 245px;
+        }
+
+        .feedback-slide{
+            margin: 40px 15px;
+            padding: 40px 15px 115px 15px
+        }
+
+        .feedback-slide__image img{
+            max-width: 264px;
+        }
+
+        .feedback-swiper__nav{
+            bottom: 50px;
+            left: 45px;
+        }
+
+        .order{
+            padding: 88px 15px 125px 15px;
+        }
+
+        .input{
+            max-width: 578px;
+            width: 100%;
+            min-width: 0;
+        }
+
+        .footer__container{
+            flex-direction: column;
+            gap: 25px;
+        }
+
+    }
+
+    @media screen and  (max-width: 376px){
+        .pros__title{
+            font-size: 25px;
+        }
+
+        .gallery__image img{
+            width: 290px;
+        }
+
+        .fire-ice__img{
+            margin-left: 15px;
+        }
+
+        .video__title{
+            font-size: 16px;
+        }
+
+        .btn{
+            max-width: 290px;
+            min-width:0;
+            width: 100%;
+        }
+
+        .previewMobile__roadmap__people{
+            right: 5px;
+        }
 
     }
 

@@ -280,7 +280,8 @@ $(document).ready(function () {
 //адаптив preview
 
     const previewTitle = $('#previewTitle');
-    const whiteSpan = $('#whiteSpan')
+    const whiteSpan = $('#whiteSpan');
+    const videoBtn = $('#videoSvg');
 
     window.addEventListener('resize', move);
 
