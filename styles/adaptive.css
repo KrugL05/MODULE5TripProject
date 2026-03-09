@@ -81,10 +81,6 @@
         bottom: -10%;
     }
 
-    .gallery .swiper-slide {
-        padding: 0 15px;
-    }
-
     .places__info__title {
         font-size: 16px;
     }
@@ -240,6 +236,10 @@
         background-image: url("../images/punkt480.png");
     }
 
+    .pros__title{
+        max-width: 250px;
+    }
+
     .pros__line__text {
         max-width: 150px;
     }
@@ -355,7 +355,7 @@
     }
 
     @media screen and  (max-width: 578px) {
-        .preview__container{
+        .preview__container {
             background: none;
             padding: 0;
         }
@@ -364,15 +364,15 @@
             display: none;
         }
 
-        .preview__roadmap{
+        .preview__roadmap {
             display: none;
         }
 
-        .previewMobile{
+        .previewMobile {
             display: block;
         }
 
-        .previewMobile__title{
+        .previewMobile__title {
             margin: 0 auto;
         }
 
@@ -409,92 +409,97 @@
             left: 56%;
         }
 
-        .fire-ice__container{
+        .fire-ice__container {
             align-items: start;
         }
 
-        .fire-ice__title{
+        .fire-ice__title {
             margin: 0 auto 25px auto;
             font-size: 25px;
         }
 
-        .fire-ice__description{
+        .fire-ice__description {
             margin: 10px auto 0 auto;
             max-width: 300px;
         }
 
-        .fire-ice__white-block{
+        .fire-ice__white-block {
             max-width: 230px;
             max-height: 260px;
         }
 
-        .fire-ice__img{
-            max-width: 280px;
+        .fire-ice__img {
+            max-width: 270px;
         }
 
-        .pros__line{
+        .pros__line {
             background-size: contain;
             height: 926px;
             max-width: 320px;
+            width: 100%;
         }
 
-        .pros__line__title{
+        .pros__line__title {
             font-size: 18px;
+            padding: 0 15px;
         }
 
-        .pros__line__description{
+        .pros__line__description {
             font-size: 10px;
             max-width: 250px;
             max-height: 78px;
         }
 
-        .first .pros__line__text,.third .pros__line__text{
+        .first .pros__line__text, .third .pros__line__text {
             margin: 10px;
         }
 
-         .second .pros__line__text,.fourth .pros__line__text{
+        .second .pros__line__text, .fourth .pros__line__text {
             margin-bottom: 10px;
         }
 
-        .pros__line__block.first{
+        .pros__line__block.first {
             flex-direction: column;
             top: 0;
             left: 10%;
         }
-        .pros__line__block.second{
+
+        .pros__line__block.second {
             flex-direction: column-reverse;
             left: 35px;
             bottom: 51%;
 
         }
-        .pros__line__block.third{
+
+        .pros__line__block.third {
             flex-direction: column;
             top: 52%;
             left: 10%;
         }
+
         .pros__line__block.fourth {
             flex-direction: column-reverse;
             bottom: -2%;
             left: 10%;
         }
 
-        .places__map__img{
+        .places__map__img {
             max-width: 290px;
         }
 
-        .video{
+        .video {
             padding: 100px 0;
         }
 
-        .tour-program__title{
+        .tour-program__title {
             font-size: 25px;
         }
 
-        .tour-slide__day{
+        .tour-slide__day {
             font-size: 20px;
         }
 
-        .tour-slide{
+        .tour-slide {
             margin-top: 40px;
             align-items: start;
         }
@@ -504,68 +509,113 @@
             max-height: 275px;
         }
 
-        .tour-slide__image img{
+        .tour-slide__image img {
             max-width: 245px;
         }
 
-        .feedback-slide{
+        .feedback-slide {
             margin: 40px 15px;
             padding: 40px 15px 115px 15px
         }
 
-        .feedback-slide__image img{
+        .feedback-slide__image img {
             max-width: 264px;
         }
 
-        .feedback-swiper__nav{
+        .feedback-swiper__nav {
             bottom: 50px;
             left: 45px;
         }
 
-        .order{
+        .order {
             padding: 88px 15px 125px 15px;
         }
 
-        .input{
+        .input {
             max-width: 578px;
             width: 100%;
             min-width: 0;
         }
 
-        .footer__container{
+        .footer__container {
             flex-direction: column;
             gap: 25px;
         }
 
     }
 
-    @media screen and  (max-width: 376px){
-        .pros__title{
-            font-size: 25px;
+    @media screen and  (max-width: 376px) {
+        .places {
+            padding: 166px 15px 115px 15px;
         }
 
-        .gallery__image img{
+        .fourth .pros__line__text {
+            margin-bottom: 25px;
+        }
+
+        .places__white-block img {
+            right: 75px;
+        }
+
+        .pros__title {
+            font-size: 25px;
+            padding: 0 15px;
+        }
+
+        .pros__line__block.first {
+            top: -15px;
+        }
+
+        .pros__line__block.second {
+            left: 27px;
+        }
+
+        .pros__line__block.fourth {
+            bottom: -5%;
+        }
+
+        .gallery__image img {
             width: 290px;
         }
 
-        .fire-ice__img{
+        .fire-ice__img {
             margin-left: 15px;
         }
 
-        .video__title{
+        .video__title {
             font-size: 16px;
         }
 
-        .btn{
+        .btn {
             max-width: 290px;
-            min-width:0;
+            min-width: 0;
             width: 100%;
         }
 
-        .previewMobile__roadmap__people{
+        .previewMobile__roadmap__people {
             right: 5px;
         }
 
-    }
+        .gallery__image{
+            width: 100%;
+            max-width: 320px;
+        }
 
+        .gallery {
+            padding: 0 15px 92px 15px;
+        }
+
+        .gallery-swiper {
+            padding: 0;
+        }
+
+        .places__white-block{
+            max-width:250px;
+            max-height: 300px;
+        }
+
+        .places__white-block img {
+            width: 215px;
+        }
+    }
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="alredy done">
-      <change afterPath="$PROJECT_DIR$/images/previewMobile.png" afterDir="false" />
+    <list default="true" id="90a4c917-9e3c-4c03-93d9-2a89397dec13" name="Changes" comment="final adaptive">
+      <change afterPath="$PROJECT_DIR$/images/карта.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
@@ -125,7 +125,9 @@
       <workItem from="1771508783491" duration="27369000" />
       <workItem from="1772118573790" duration="2000" />
       <workItem from="1772525097520" duration="10249000" />
-      <workItem from="1772703497902" duration="15231000" />
+      <workItem from="1772703497902" duration="15686000" />
+      <workItem from="1772793382202" duration="5955000" />
+      <workItem from="1773044701844" duration="6999000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <option name="closed" value="true" />
@@ -159,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772533760755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final adaptive">
+      <option name="closed" value="true" />
+      <created>1772745946843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772745946843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check" />
     <MESSAGE value="alredy done" />
-    <option name="LAST_COMMIT_MESSAGE" value="alredy done" />
+    <MESSAGE value="final adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="final adaptive" />
   </component>
 </project>

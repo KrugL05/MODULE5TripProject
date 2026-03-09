@@ -188,44 +188,46 @@ $(document).ready(function () {
     const $radioInputs = $('input[name="people"]');
     const $radioLabels = $('label.people');
     const $thanks = $('#thanks');
-    console.log($radioInputs);
-    console.log($radioLabels);
+
+    function validateForm() {
+        let isValid = true;
+
+        const fields = [
+            {
+                condition: $radioInputs.filter(':checked').length === 0,
+                validation: $radioValidation,
+                target: $radioLabels,
+            },
+            {
+                condition: $nameInput.val().trim() === '',
+                validation: $nameValidation,
+                target: $nameInput,
+            },
+            {
+                condition: $phoneInput.val().trim() === '',
+                validation: $phoneValidation,
+                target: $phoneInput,
+            },
+        ];
+
+        fields.forEach(({condition, validation, target}) => {
+            if (condition) {
+                validation.addClass('visible');
+                target.addClass('error');
+                isValid = false;
+            } else {
+                validation.addClass('invisible');
+                target.removeClass('error');
+            }
+        });
+
+        return isValid;
+    }
 
     $form.on('submit', function (e) {
         e.preventDefault();
 
-        let isValid = true;
-
-        if ($radioInputs.filter(':checked').length === 0) {
-            $radioValidation.addClass('visible');
-            $radioLabels.addClass('error');
-            isValid = false;
-        } else {
-            $radioValidation.addClass('invisible');
-            $radioLabels.removeClass('error');
-        }
-
-        if ($nameInput.val().trim() === '') {
-            $nameValidation.addClass('visible');
-            $nameInput.addClass('error');
-            isValid = false;
-        } else {
-            $nameValidation.addClass('invisible');
-            $nameInput.removeClass('error');
-        }
-
-        const phoneValue = $phoneInput.val().trim();
-
-        if (phoneValue === '') {
-            $phoneValidation.addClass('visible');
-            $phoneInput.addClass('error');
-            isValid = false;
-        } else {
-            $phoneValidation.addClass('invisible');
-            $phoneInput.removeClass('error');
-        }
-
-        if (!isValid) return;
+        if (!validateForm()) return;
 
         $.ajax({
             url: 'https://testologia.ru/checkout',
@@ -237,7 +239,6 @@ $(document).ready(function () {
                 people: $radioInputs.filter(':checked').val()
             },
             success: function (response) {
-
                 if (response.success === 0) {
                     alert('Произошла ошибка. Попробуйте позже.');
                 } else {
@@ -249,21 +250,23 @@ $(document).ready(function () {
                 alert('Ошибка отправки. Проверьте соединение.');
             }
         });
-
     });
 
+    function clearValidation($input, $validation) {
+        $input.removeClass('error');
+        $validation.addClass('invisible');
+    }
+
     $nameInput.on('input', function () {
-        $(this).removeClass('error');
-        $nameValidation.addClass('invisible');
+        clearValidation($nameInput, $nameValidation);
     });
 
     $phoneInput.on('input', function () {
-        $(this).removeClass('error');
-        $phoneValidation.addClass('invisible');
+        clearValidation($phoneInput, $phoneValidation);
     });
 
     $radioInputs.on('change', function () {
-        $radioValidation.addClass('invisible');
+        clearValidation($radioLabels, $radioValidation);
     });
 
 //попап
@@ -302,15 +305,13 @@ $(document).ready(function () {
     $.mask.definitions['h'] = "[0|1|3|4|5|6|7|9]"
     $(".mask-phone").mask("+7 (h99) 999-99-99");
 
-});
 
 //бургер меню
-$(document).ready(function () {
-    const $burger        = $('#burger');
-    const $mobileMenu    = $('#mobileMenu');
+    const $burger = $('#burger');
+    const $mobileMenu = $('#mobileMenu');
     const $mobileOverlay = $('#mobileMenuOverlay');
-    const $iconOpen      = $burger.find('.burger__icon--open');
-    const $iconClose     = $burger.find('.burger__icon--close');
+    const $iconOpen = $burger.find('.burger__icon--open');
+    const $iconClose = $burger.find('.burger__icon--close');
 
     function openMenu() {
         $mobileMenu.addClass('active');
